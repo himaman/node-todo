@@ -1,6 +1,6 @@
 [
   {
-    "name": "nodetodo",
+    "name": "node-todo",
     "imageUri": "public.ecr.aws/z5a6m0y1/nodetodo:latest"
   }
 ]
