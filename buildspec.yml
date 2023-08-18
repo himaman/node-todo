@@ -3,15 +3,16 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 14
+      nodejs: 12
     commands:
+      - echo "Installing npm dependencies"
       - npm install
 
   build:
     commands:
-      - npm run build
+      - echo "Running tests"
+      - npm run test
 
 artifacts:
-  files:
-    - '**/*'
-  base-directory: dist
+  files: 
+      - '**/*'
